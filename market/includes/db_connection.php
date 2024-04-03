@@ -1,10 +1,10 @@
 <?php
 // Configuração do banco de dados
-$servername = "sql312.infinityfree.com";
+$servername = "";
 //$port = 7306;
-$username = "if0_36294597";
-$password = "NvbSzXvcoW";
-$dbname = "if0_36294597_BD";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
     // Conexão com o banco de dados
