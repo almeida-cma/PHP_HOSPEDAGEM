@@ -11,11 +11,11 @@ if (empty($_SESSION['cart'])) {
 // Verifica se o formulário foi enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['celular'])) {
     // Conecta ao banco de dados
-    $servername = "sql312.infinityfree.com";
+    $servername = "";
     //$port = 7306;
-    $username = "if0_36294597";
-    $password = "NvbSzXvcoW";
-    $dbname = "if0_36294597_BD";
+    $username = "";
+    $password = "";
+    $dbname = "";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Verifica a conexão
